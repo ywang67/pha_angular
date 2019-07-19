@@ -1,0 +1,11 @@
+.app-header {
+  align-items: center;
+  border-bottom: 1px solid #cdcdcd;
+  display: flex;
+  height: 48px;
+  width: 100vw;
+}
+
+.logo-name {
+  color: #277ff4b0;
+}

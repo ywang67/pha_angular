@@ -1,0 +1,12 @@
+.btn-add {
+  background-color: #2196f3;
+  border-radius: 2px;
+  margin: 0 24px;
+  padding: 8px 24px;
+}
+
+.count-element {
+  color: green;
+  font-size: 24px;
+  padding: 24px;
+}

@@ -1,0 +1,21 @@
+<div>
+  <input
+    type='text'
+    [(ngModel)]='name'
+    (input)='onChangeType($event)'
+  />
+  <button
+    class="btn-add"
+    (click)="addUserName(name)"
+  >
+    Add
+  </button>
+  <li class='count-element' *ngFor='let c of count; trackBy: index'>
+    Hello {{ c }} This is Home Component!
+  </li>
+</div>
+<sample-about
+  [countName]='count'
+  [addUserName]='addUserName'
+  (childEventClick)='printChild($event)'
+></sample-about>
