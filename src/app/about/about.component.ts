@@ -17,7 +17,7 @@ export class AboutComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.addUserName('Pradeep');
+
   }
 
   test(evt: Event): void {
